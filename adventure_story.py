@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Henry
+# 09/10/24
 # f-String Adventure Story
 
 '''
@@ -21,3 +21,10 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+hero_name = input("Enter the hero's name: (Example:Sandman\n")
+
+setting = input("Enter the setting of the story: (Example:Desert\n")
+
+object = input ("Enter the object your hero finds: (Example:Gold\n")
+
+print(f"{hero_name} is searching the {setting} for some {object}")
